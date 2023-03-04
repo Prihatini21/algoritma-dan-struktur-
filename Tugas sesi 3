@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+kelas publik NextPalindrome {
+    public static void main(String[] args) {
+        Masukan pemindai = Pemindai baru (System.in);
+
+        System.out.print("Masukkan sebuah angka: ");
+        int jumlahmasukan = masukan.nextInt();
+
+        int nextNum = inputNum + 1;
+        while (!isPalindrome(nextNum)) {
+            nextNum++;
+        }
+
+        System.out.println("Angka palindrome terdekat selanjutnya dari " + inputNum + " adalah " + nextNum);
+    }
+
+    public static boolean isPalindrome(int num) {
+        int bilangan terbalik = 0;
+        int OriginalNum = num;
+
+        while (bil != 0) {
+            int angka = angka % 10;
+            bilangan terbalik = bilangan terbalik * 10 + digit;
+            bilangan /= 10;
+        }
+
+        return originalNum == reversedNum;
+    }
+}
